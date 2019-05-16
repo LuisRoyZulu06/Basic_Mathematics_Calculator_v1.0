@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Developed By The LuieRoy Technologies Developed By The LuieRoy Technologies Developed By The LuieRoy Technologies Developed By The LuieRoy Technologies
+
+  88888888888 000                     666                                33399999"                              888888888888        
+      888     000                     666                                333     88                                  888   
+      888     000        ,adPPYba,    666       88     00 00 ,adPPYba,   333     88   ,dPPYba,   8b        d8        888  ,adPPYba,  ,adPPYba,  00                 
+      888     000000000 a8P_____88    666       00     88 00 a8P_____88  33399999"   8P'    "8a  `8b      d8'        888  a8P_____88 a8P    88  00        
+      888     00     00 8PP"""""""    666       88     00 00 8PP"""""""  333   b8o  8b        d8  `8b   d8'          888  8PP""""""" 8PP        000000000 
+      888     00     00 "8b,   ,aa    666       00     88 00 "8b,   ,aa  333    ob8' 8b,   ,a8"    `8b,d8'           888  "8b,   ,aa "8b,  ,aa  00     00 
+      888     00     00  `"Ybbd8"'    000000000 '"Ybbd8"' 00  '"Ybbd8"'  333     ob8' "Ybbd8"'       Y88'            888   `"Ybbd8"'  `"Ybb8"   00     00  
+                                                                                                     d8'
+                                                                                                    d8'  
+  Visit our facebook page at https://www.facebook.com/theluieroytechnologies                                                                                                                                                                                                   
+-->
+
+<html lang="en">
+<head>
+<title>Simple Calculator</title>
+<meta charset="utf-8">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/w3.css" rel="stylesheet">
+</head>
+    <body>
+    <div class="container">
+    <form>
+    Val1:<input class="w3-input w3-border w3-margin-bottom" type="text" id="val1">
+    Val2:<input class="w3-input w3-border w3-margin-bottom" type="text" id="val2">
+      
+        <select id="operator">
+        <option value="add">Add</option>
+        <option value="minus">Minus</option>
+        <option value="multi">Multiply</option>
+        <option value="div">Divide</option>    
+        </select>
+        
+        <button type="button" class="w3-btn w3-blue" onclick="calc()">=</button> 
+        <br>
+    </form>
+    <div id="result"></div>                
+    </div>
+        <!--
+        RESULTS  CANNOT BE SET INSIDE A FORM (DEBUG ORIGINAL CALCULATOR)
+        Results: <input type="text" id="result"> 
+        -->
+
+    <!-- JS FOR CALCULATOR LOGIC -->    
+    <script src="js/script.js"></script> 
+        
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"> </script>    
+    </body>
+</html>
